@@ -1,0 +1,12 @@
+:root {
+  --body-color: rgb(241, 241, 241);
+  --header-font: "Prata", serif;
+  --hover-link-color: #8277ac;
+  --main-font: "Playfair Display", serif;
+  --primary-color: rgb(224, 224, 224);
+  --secondary-color: #272044;
+}
+
+body {
+  font-family: var(--primary-color);
+}
