@@ -1,6 +1,43 @@
+:root {
+  --body-color: rgb(241, 241, 241);
+  --hover-link-color: #886cf5;
+  --main-font: "Playfair Display", serif;
+  --primary-color: #272044;
+  --secondary-color: rgba(162, 162, 162, 0.804);
+}
+body {
+  font-family: var(--main-font);
+  color: var(--primary-color);
+}
 .Weather {
   border: 1px solid #dadde1;
+  border-radius: 4px;
+  padding: 16px;
+  max-width: 600px;
+  margin: 50px auto;
 }
+
 .Weather h1 {
-  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.Weather h2 {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+  list-style: none;
+  opacity: 0.4;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
