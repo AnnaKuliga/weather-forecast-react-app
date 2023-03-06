@@ -1,12 +1,27 @@
-:root {
-  --body-color: rgb(241, 241, 241);
-  --header-font: "Prata", serif;
-  --hover-link-color: #8277ac;
-  --main-font: "Playfair Display", serif;
-  --primary-color: rgb(224, 224, 224);
-  --secondary-color: #272044;
+.grid {
+  padding: 15px 15px 0;
+  display: grid;
+  grid-gap: 10px;
+  margin: 10px 0;
 }
-
-body {
-  font-family: var(--primary-color);
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-four-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-3-columns-footer {
+  grid-template-columns: 2fr 2fr 2fr;
+}
+@media (max-width: 900px) {
+  .grid-2-columns,
+  .grid-3-columns,
+  .grid-four-columns,
+  .grid-3-columns-footer {
+    grid-template-columns: 1fr;
+  }
 }
