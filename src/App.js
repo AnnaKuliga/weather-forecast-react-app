@@ -1,5 +1,6 @@
 import React from "react";
 import Weather from "./Weather";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather />
+        <Footer />
       </div>
     </div>
   );

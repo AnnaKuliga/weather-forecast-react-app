@@ -1,0 +1,29 @@
+.Footer {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/269/original/pexels-sl-wong-1023953.jpg?1678120038);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  font-size: 11px;
+  margin: 0 auto;
+}
+.Footer a {
+  color: var(--primary-color);
+  font-size: 14px;
+  text-decoration: none;
+}
+.Footer a:hover {
+  color: var(--hover-link-color);
+}
+
+.Footer h4 {
+  font-size: 20px;
+  text-align: center;
+}
+.Footer .links {
+  padding-bottom: 20px;
+}
+.Footer p {
+  margin: 0;
+  padding: 10px;
+  text-align: justify;
+}
