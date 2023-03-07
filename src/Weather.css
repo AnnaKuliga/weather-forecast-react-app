@@ -9,6 +9,7 @@ body {
   font-family: var(--main-font);
   color: var(--primary-color);
 }
+
 .Weather {
   background-color: rgba(255, 255, 255, 0.635);
   border: 1px solid #dadde1;
