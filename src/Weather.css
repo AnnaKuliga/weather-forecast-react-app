@@ -40,9 +40,7 @@ body {
   opacity: 0.4;
   text-align: justify;
 }
-.Weather img {
-  width: 60%;
-}
+
 .Weather .temperature {
   font-size: 64px;
   font-weight: 400;

@@ -20,7 +20,7 @@ export default function Weather(props) {
       feel: response.data.temperature.feels_like,
       pressure: response.data.temperature.pressure,
       description: response.data.condition.description,
-      icon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
+      icon: response.data.condition.icon,
     });
   }
 
