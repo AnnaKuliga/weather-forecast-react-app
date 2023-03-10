@@ -63,3 +63,21 @@ body {
 .WeatherInfo {
   padding-bottom: 30px;
 }
+@media (max-width: 900px) {
+  .Weather h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .Weather h2 {
+    text-align: center;
+  }
+  .WeatherInfo li {
+    text-align: center;
+  }
+  .WeatherInfo .currentTemperature {
+    text-align: center;
+  }
+  .WeatherInfo .mainIcon {
+    text-align: center;
+  }
+}
