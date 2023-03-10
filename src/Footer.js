@@ -18,8 +18,8 @@ export default function Footer() {
           <hr />
           <p>
             This weather app is made for general use. It is free and everyone
-            can access it. Feel free to write me an email or contact meif you
-            find this application useful.
+            can access it. Feel free to write me an email or contact me if you
+            spote a bug.
           </p>
         </div>
         <div className="about-me">

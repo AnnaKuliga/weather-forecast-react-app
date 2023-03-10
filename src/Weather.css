@@ -63,6 +63,10 @@ body {
 .WeatherInfo {
   padding-bottom: 30px;
 }
+.WeatherTemperature a {
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .Weather h1 {
     font-size: 45px;
